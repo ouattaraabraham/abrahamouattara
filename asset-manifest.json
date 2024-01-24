@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1855c02a.css",
+    "main.js": "/static/js/main.2bf649e5.js",
+    "static/media/hero.png": "/static/media/hero.fdb34cd061bc3c6e8163.png",
+    "static/media/img_projet_lux_hotel.jpg": "/static/media/img_projet_lux_hotel.900eff444598e58f4da0.jpg",
+    "static/media/img_projet_found_place.jpg": "/static/media/img_projet_found_place.de1e1386026eaa4173ec.jpg",
+    "static/media/img_Dessin_Competance.svg": "/static/media/img_Dessin_Competance.806c2e837d816e4b43952fa1b3abee3f.svg",
+    "static/media/Satoshi-Regular.otf": "/static/media/Satoshi-Regular.811ccb0b5af1892a71df.otf",
+    "static/media/img_temoignage_profil-2.jpg": "/static/media/img_temoignage_profil-2.6a3c3e4e3c41b34d07de.jpg",
+    "static/media/img_temoignage_profil-1.jpg": "/static/media/img_temoignage_profil-1.806d2c4ad23ea7603a4b.jpg",
+    "static/media/Star.svg": "/static/media/Star.9400b2d6d162323e6c1b7a05e6745f2a.svg",
+    "index.html": "/index.html",
+    "main.1855c02a.css.map": "/static/css/main.1855c02a.css.map",
+    "main.2bf649e5.js.map": "/static/js/main.2bf649e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1855c02a.css",
+    "static/js/main.2bf649e5.js"
+  ]
+}
