@@ -1,19 +1,9 @@
 import { motion } from "framer-motion";
 import Technologie from "./Technologie";
-import { imgDessinCompetance } from "./image";
+import { imgDessinCompetance } from "../assets/images";
+import { DATAAPROPOS } from "../data/Constants";
 
 const Apropos = () => {
-  const P1 = ` Bienvenue dans mon monde de développeur Web professionnel. Je
-  m'appel Abraham et je suis un développeur expérimenté et spécialisé
-  dans la création de solutions frontend de haute qualités, efficaces
-  et visuellement attrayantes.`;
-
-  const P2 = `Grâce à mon expertise, j'aide les entreprises et les organisations à
-  atteindre leurs objectifs en ligne et à se démarquer dans le paysage
-  numérique concurrentiel.`;
-
-  const H2 = `Voici quelques technologies avec lesquelles j’ai travaillé
-  récemment `;
 
   const Variants = {
     visible: {
@@ -49,15 +39,15 @@ const Apropos = () => {
         className="sm:grid grid-cols-2 items-center"
       >
         <div className="pb-10">
-          <p className="mb-4 lg:text-lg">{P1} </p>
-          <p className="mb-4 lg:text-lg">{P2} </p>
+          <p className="mb-4 lg:text-lg">{DATAAPROPOS.txt1} </p>
+          <p className="mb-4 lg:text-lg">{DATAAPROPOS.txt2} </p>
           <div className="mt-5 ">
-            <h2 className="lg:text-lg">{H2}: </h2>
+            <h2 className="lg:text-lg">{DATAAPROPOS.txt3}: </h2>
             <Technologie />
           </div>
         </div>
         <div className="flex justify-center">
-          <img src={imgDessinCompetance} alt="homme devant un ordinateur" />
+          <img src={imgDessinCompetance} alt="Un homme devant un ordinateur" />
         </div>
       </motion.div>
     </div>

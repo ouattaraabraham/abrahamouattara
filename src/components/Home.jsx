@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import {hero} from "./image";
+import {imgHero} from "../assets/images";
 import SocialMedias from "./SocialMedias";
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
         <div className=" mt-20 mb-10 sm:my-0 sm:order-2 animate-heroAnimation relative overflow-hidden rounded-[60%_40%_30%_70%_/_60%_30%_70%_40%] max-w-[500px] max-h-[500px] w-[90vw] h-[90vw] mobil-sm:w-[18rem] mobil-sm:h-[18rem] sm:w-[14rem] sm:h-[14rem] md:w-[18rem] md:h-[18rem] lg:w-[22rem] lg:h-[22rem] ">
           <img
             className=" border-[60%_40%_30%_70%/60%_30%_70%_40%] object-cover z-20 w-full h-full object-top"
-            src={hero}
+            src={imgHero}
             alt="profile du développeur"
           />
         </div>

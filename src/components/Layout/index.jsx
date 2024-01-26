@@ -1,8 +1,8 @@
-import Home from "./Home.jsx";
-import Apropos from "./Apropos.jsx";
-import Projets from "./Projets.jsx";
-import Temoignage from "./Temoignage.jsx";
-import Contacter from "./Contacter.jsx";
+import Home from "../Home.jsx";
+import Apropos from "../Apropos.jsx";
+import Projets from "../Projets.jsx";
+import Temoignage from "../Temoignage.jsx";
+import Contacter from "../Contacter.jsx";
 
 const Layout = () => {
   return (

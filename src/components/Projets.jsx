@@ -1,29 +1,8 @@
 import React from "react"; // Plus besoin d'importer React aujourd'hui
 import { motion } from "framer-motion";
-import { projet1, projet2 } from "./image";
+import { DATAPROJETS } from "../data/Constants";
 
 const Projets = () => {
-  const DataProjects = [
-    {
-      id: 0,
-      img: projet1,
-      name: "Lux hôtel",
-      description: `Lux hôtel est un site d'hôtel que j'ai créé en utilisant les
-    technologies telles que : react js, taiwind css, le site contient
-    plusieurs pages : accueil, réservation, et contacter .`,
-      link: "https://ouattaraabraham.github.io/lux-hotel/",
-    },
-    {
-      id: 1,
-      img: projet2,
-      name: "Event-fiesta",
-      description: `Event-fiesta est une application qui permet de trouver des lieux
-       pour son événement (séminaire, team building, soirée privée, mariage, etc.)
-        selon les critères, la typographie du lieu souhaité. J'ai utilisé les technologies
-         telles que : react, tailwind, redux.`,
-      link: "https://ouattaraabraham.github.io/event-fiesta/",
-    },
-  ];
 
   const Variants = {
     visible: {
@@ -52,7 +31,7 @@ const Projets = () => {
       </motion.h1>
 
       <div>
-        {DataProjects.map((item) => (
+        {DATAPROJETS.map((item) => (
           <motion.div
             initial="hidden"
             variants={Variants}

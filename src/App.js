@@ -1,12 +1,6 @@
-
 import NavBar from "./components/NavBar";
-import Home from "./components/Home";
-import Apropos from "./components/Apropos";
-import Projets from "./components/Projets.jsx";
-import Temoignage from "./components/Temoignage";
-import Contacter from "./components/Contacter";
 import Footer from "./components/Footer";
-import Layout from "./components/Layout.jsx";
+import Layout from "./components/Layout/";
 
 
 

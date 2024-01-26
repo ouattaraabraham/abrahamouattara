@@ -1,25 +1,10 @@
 import React from "react"; // Plus besoin d'importer React aujourd'hui
 import { motion } from "framer-motion";
-import { temoignage1, temoignage2 } from "./image";
+import { DATATEMOIGNAGE } from "../data/Constants";
+
 
 const Temoignage = () => {
-  const DataTemoignages = [
-    {
-      id: 0,
-      img: temoignage1,
-      texte: ` Abraham a des qualités exceptionnelles, il a réalisé notre site
-    internet comme voulu, je suis rassuré dorénavant de travailler avec
-    lui, je le recommande pour son efficacité sa coopération et sa
-    flexibilité.`,
-    },
-    {
-      id: 1,
-      img: temoignage2,
-      texte: `C'est un réel plaisir pour moi de travailler avec Abraham qui a
-    toujours été à la hauteur de mes attentes. Il est le type de
-    développeur qui sait réellement ce qu'il fait.`,
-    },
-  ];
+
 
   const Variants = {
     visible: {
@@ -46,7 +31,7 @@ const Temoignage = () => {
       >
         Témoignages
       </motion.h2>
-      {DataTemoignages.map((item) => (
+      {DATATEMOIGNAGE.map((item) => (
         <motion.div
           initial="hidden"
           variants={Variants}

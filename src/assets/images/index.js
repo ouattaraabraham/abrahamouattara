@@ -1,0 +1,7 @@
+export {default as imgProjet1 } from "./img_projet_lux_hotel.jpg"
+export {default as imgProjet2 } from "./img_projet_found_place.jpg"
+export {default as imgTemoignage1 } from "./img_temoignage_profil-1.jpg"
+export {default as imgTemoignage2 } from "./img_temoignage_profil-2.jpg"
+export {default as imgDessinCompetance } from "./img_Dessin_Competance.svg"
+export {default as imgStar } from "./Star.svg"
+export {default as imgHero } from "./hero.png"

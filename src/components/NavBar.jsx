@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
-import {star} from "./image";
+import {imgStar} from "../assets/images";
 import { motion, AnimatePresence } from "framer-motion";
 import { HiOutlineBars3CenterLeft } from "react-icons/hi2";
 import { RxCross2 } from "react-icons/rx";
@@ -10,10 +10,8 @@ const NavBar = () => {
 
   const Blur = document.getElementById("layout");
   if (open) {
-    console.log("blur :" + Blur);
     Blur.style.filter = "blur(6px)";
   } else if (!open && Blur) {
-    console.log("blur :" + Blur);
     Blur.style.filter = "blur(0)";
   }
 
@@ -39,7 +37,7 @@ const NavBar = () => {
     >
       <div className="cursor-pointer flex  items-center z-10">
         <Link className="hidden md:block" to="Home" smooth duration={500}>
-          <img className="w-[4rem] " src={star} alt="Profil" />
+          <img className="w-[4rem] " src={imgStar} alt="Profil" />
         </Link>
 
         <Link
@@ -49,7 +47,7 @@ const NavBar = () => {
           smooth
           duration={500}
         >
-          <img className="w-[3rem]" src={star} alt="Profil" />
+          <img className="w-[3rem]" src={imgStar} alt="Profil" />
         </Link>
       </div>
 
@@ -65,7 +63,7 @@ const NavBar = () => {
           </li>
         ))}
       </ul>
-      {/* mobil-bar */}
+      {/* mobil-navBar */}
       <button onClick={fcOpen} className="md:hidden z-10 pr-[14px]">
         {open ? (
           <RxCross2 size={30} color="white" />

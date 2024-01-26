@@ -1,41 +1,11 @@
-import { MdEmail } from "react-icons/md";
-import { FaTwitter, FaSquareGithub } from "react-icons/fa6";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { DATASOCIAUX } from "../data/Constants";
 
 const SocialMedias =(props)=> {
 
-  const Data = [
-    {
-      name: "E-mail",
-      icon: <MdEmail className="mr-2" />,
-      link: "mailto:abraham.dev2024@gmail.com",
-    },
-    {
-      name: "Linkedin",
-      icon: <FaLinkedinIn className="mr-2" />,
-      link: "https://www.linkedin.com/in/abraham-ouattara-8ba4a522b/",
-    },
-    {
-      name: "Twitter",
-      icon: <FaTwitter className="mr-2" />,
-      link: "https://twitter.com/AbrahamOua49761",
-    },
-    {
-      name: "Instagram",
-      icon: <AiFillInstagram className="mr-2" />,
-      link: "https://www.instagram.com/abrahamcodeur/",
-    },
-    {
-      name: "Github",
-      icon: <FaSquareGithub className="mr-2" />,
-      link: "https://github.com/ouattaraabraham",
-    },
-  ];
 
   return (
     <div className={`${props.styles} flex flex-wrap text-white `}>
-      {Data.map((item, keys) => (
+      {DATASOCIAUX.map((item, keys) => (
         <a
           href={item.link}
           target="_blank"
