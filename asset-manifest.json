@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1855c02a.css",
-    "main.js": "/static/js/main.a5696ad7.js",
+    "main.js": "/static/js/main.869c214e.js",
     "static/media/hero.png": "/static/media/hero.fdb34cd061bc3c6e8163.png",
     "static/media/img_projet_lux_hotel.jpg": "/static/media/img_projet_lux_hotel.900eff444598e58f4da0.jpg",
     "static/media/img_projet_found_place.jpg": "/static/media/img_projet_found_place.de1e1386026eaa4173ec.jpg",
@@ -12,10 +12,10 @@
     "static/media/Star.svg": "/static/media/Star.9400b2d6d162323e6c1b7a05e6745f2a.svg",
     "index.html": "/index.html",
     "main.1855c02a.css.map": "/static/css/main.1855c02a.css.map",
-    "main.a5696ad7.js.map": "/static/js/main.a5696ad7.js.map"
+    "main.869c214e.js.map": "/static/js/main.869c214e.js.map"
   },
   "entrypoints": [
     "static/css/main.1855c02a.css",
-    "static/js/main.a5696ad7.js"
+    "static/js/main.869c214e.js"
   ]
 }
