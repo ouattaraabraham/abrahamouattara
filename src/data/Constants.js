@@ -58,14 +58,16 @@ export const DATATECHNOLOGIE ={
 }
 
 export const DATAAPROPOS={
-    txt1: ` Bienvenue dans mon monde de développeur Web professionnel. Je
-    m'appel Abraham et je suis un développeur expérimenté et spécialisé
-    dans la création de solutions frontend de haute qualités, efficaces
-    et visuellement attrayantes.`,
+    txt1: `  Passionné par la création d'expériences en ligne exceptionnelles,
+     je suis un développeur web dédié à l'art de transformer des idées en réalité numérique.
+     Ma mission est de concevoir des sites web intuitifs, performants et esthétiques,
+      en utilisant les dernières technologies pour offrir une navigation fluide et
+       une expérience utilisateur optimale.`,
   
-    txt2: `Grâce à mon expertise, j'aide les entreprises et les organisations à
-    atteindre leurs objectifs en ligne et à se démarquer dans le paysage
-    numérique concurrentiel.`,
+    txt2: `Avec une solide expertise dans le développement front-end et back-end,
+     je m'efforce de repousser les limites pour créer des solutions web innovantes
+      et adaptées aux besoins spécifiques de mes clients. Ensemble,
+       créons une présence en ligne qui se démarque dans le monde numérique.`,
   
     txt3: `Voici quelques technologies avec lesquelles j’ai travaillé
     récemment `
