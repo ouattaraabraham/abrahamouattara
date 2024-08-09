@@ -1,4 +1,4 @@
-import { imgTemoignage1, imgTemoignage2, imgProjet1, imgProjet2 } from "../assets/images";
+import { imgTemoignage1, imgTemoignage2, imgProjet1, hpPrestige, eveEvent, astraOne } from "../assets/images";
 import { MdEmail } from "react-icons/md";
 import { FaTwitter, FaSquareGithub, FaReact  } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
@@ -76,6 +76,27 @@ export const DATAAPROPOS={
 export const DATAPROJETS=[
         {
           id: 0,
+          img: astraOne,
+          name: "astraOne",
+          description: ` astraOne est une Agence Marketing Digital & Web qui est  solutions de communication, design, UX, et de développement d'applications web innovantes j'ai realiser le site de astraOne avec nextjs.`,
+          link: "https://ouattaraabraham.github.io/agence-tech/",
+        },
+        {
+          id: 1,
+          img: eveEvent,
+          name: "EveEvent",
+          description: ` EveEvent est un site de decoratrice et organisatrice des événements inoubliables tels que mariages, anniversaires,intimes, ou tout autre événement marquant. j'ai realiser cet siite pour l'agence astraOne  .`,
+          link: "https://eve-event.vercel.app/",
+        },
+        {
+          id: 2,
+          img: hpPrestige,
+          name: "hp-prestige",
+          description: ` hp-prestige ( hygiènePure Prestige ) est un services de nettoyage de la plus haute qualité pour répondre à tous vos besoins que j'ai realiser, j'ai utiliser nextjs .`,
+          link: "https://hp-prestige.vercel.app/",
+        },
+        {
+          id: 3,
           img: imgProjet1,
           name: "Lux hôtel",
           description: `Lux hôtel est un site d'hôtel que j'ai créé en utilisant les
@@ -83,16 +104,16 @@ export const DATAPROJETS=[
         plusieurs pages : accueil, réservation, et contacter .`,
           link: "https://ouattaraabraham.github.io/lux-hotel/",
         },
-        {
-          id: 1,
-          img: imgProjet2,
-          name: "Event-fiesta",
-          description: `Event-fiesta est une application qui permet de trouver des lieux
-           pour son événement (séminaire, team building, soirée privée, mariage, etc.)
-            selon les critères, la typographie du lieu souhaité. J'ai utilisé les technologies
-             telles que : react, tailwind, redux.`,
-          link: "https://ouattaraabraham.github.io/event-fiesta/",
-        },
+        // {
+        //   id: 4,
+        //   img: imgProjet2,
+        //   name: "Event-fiesta",
+        //   description: `Event-fiesta est une application qui permet de trouver des lieux
+        //    pour son événement (séminaire, team building, soirée privée, mariage, etc.)
+        //     selon les critères, la typographie du lieu souhaité. J'ai utilisé les technologies
+        //      telles que : react, tailwind, redux.`,
+        //   link: "https://ouattaraabraham.github.io/event-fiesta/",
+        // },
 ]
 
 export const DATATEMOIGNAGE = [

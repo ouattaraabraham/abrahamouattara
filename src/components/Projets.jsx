@@ -37,10 +37,10 @@ const Projets = () => {
             variants={Variants}
             whileInView="visible"
             viewport={{ once: true }}
-            className="sm:grid grid-cols-2 items-center gap-12 mb-14 sm:mb-8 lg:mb-28  "
+            className="sm:grid grid-cols-2 gap-12 mb-14 sm:mb-8 lg:mb-28  "
             key={item.id}
           >
-            <img src={item.img} alt={"projet" + item.id} />
+            <img className="hover:scale-110" src={item.img} alt={"projet" + item.id} />
             <div className="text-center sm:text-start py-7">
               <h2 className="font-bold pb-6 text-[#ccd6f6] text-lg lg:text-2xl">
                 {" "}

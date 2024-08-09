@@ -37,10 +37,10 @@ const Temoignage = () => {
           variants={Variants}
           whileInView="visible"
           viewport={{ once: true }}
-          className="sm:flex bg-[#0D2847] p-4 mb-10"
+          className="md:flex bg-[#0D2847] p-4 mb-10"
         >
           <img
-            className="object-cover"
+            className="object-cover md:w-[50%]"
             src={item.img}
             alt={`Temoignage1${item.id}`}
           />
