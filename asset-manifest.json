@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.35b3359b.css",
-    "main.js": "/static/js/main.5bc98c00.js",
+    "main.css": "/static/css/main.9f6eb8a8.css",
+    "main.js": "/static/js/main.66a67202.js",
     "static/media/img_temoignage_profil-1.jpg": "/static/media/img_temoignage_profil-1.a63476a68aaaaa118f47.jpg",
     "static/media/hero.png": "/static/media/hero.fdb34cd061bc3c6e8163.png",
+    "static/media/siraforest.png": "/static/media/siraforest.352b147ebc7109446276.png",
     "static/media/img_temoignage_profil-2.jpg": "/static/media/img_temoignage_profil-2.d9f9ab908d379c0c9ee6.jpg",
-    "static/media/hpPrestige.png": "/static/media/hpPrestige.f322e68688655c2034be.png",
+    "static/media/astraOne.png": "/static/media/astraOne.6c3e20a96d5daa0fbef3.png",
+    "static/media/hpPrestige.png": "/static/media/hpPrestige.e474ebfc4cf90c466631.png",
     "static/media/img_projet_lux_hotel.jpg": "/static/media/img_projet_lux_hotel.900eff444598e58f4da0.jpg",
-    "static/media/eveEvent.png": "/static/media/eveEvent.ca4b07c59b4735170c40.png",
     "static/media/img_projet_found_place.jpg": "/static/media/img_projet_found_place.de1e1386026eaa4173ec.jpg",
-    "static/media/astraOne.png": "/static/media/astraOne.e46ad1fafb796c457510.png",
     "static/media/img_Dessin_Competance.svg": "/static/media/img_Dessin_Competance.806c2e837d816e4b43952fa1b3abee3f.svg",
     "static/media/Satoshi-Regular.otf": "/static/media/Satoshi-Regular.811ccb0b5af1892a71df.otf",
     "static/media/Star.svg": "/static/media/Star.9400b2d6d162323e6c1b7a05e6745f2a.svg",
     "index.html": "/index.html",
-    "main.35b3359b.css.map": "/static/css/main.35b3359b.css.map",
-    "main.5bc98c00.js.map": "/static/js/main.5bc98c00.js.map"
+    "main.9f6eb8a8.css.map": "/static/css/main.9f6eb8a8.css.map",
+    "main.66a67202.js.map": "/static/js/main.66a67202.js.map"
   },
   "entrypoints": [
-    "static/css/main.35b3359b.css",
-    "static/js/main.5bc98c00.js"
+    "static/css/main.9f6eb8a8.css",
+    "static/js/main.66a67202.js"
   ]
 }
