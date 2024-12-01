@@ -1,4 +1,4 @@
-import { imgTemoignage1, imgTemoignage2, imgProjet1, hpPrestige, eveEvent, astraOne } from "../assets/images";
+import { imgTemoignage1, imgTemoignage2, imgProjet1, hpPrestige, siraforest, astraOne } from "../assets/images";
 import { MdEmail } from "react-icons/md";
 import { FaTwitter, FaSquareGithub, FaReact  } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
@@ -78,32 +78,33 @@ export const DATAPROJETS=[
           id: 0,
           img: astraOne,
           name: "astraOne",
-          description: ` astraOne est une Agence Marketing Digital & Web qui est  solutions de communication, design, UX, et de développement d'applications web innovantes j'ai realiser le site de astraOne avec nextjs.`,
+          description: ` astraOne est une Agence Marketing Digital & Web qui est  solutions de communication, design, UX, et de développement d'applications web innovantes j'ai realiser le site de astraOne.  outils utilisés : nextjs .`,
           link: "https://ouattaraabraham.github.io/agence-tech/",
         },
         {
           id: 1,
-          img: eveEvent,
-          name: "EveEvent",
-          description: ` EveEvent est un site de decoratrice et organisatrice des événements inoubliables tels que mariages, anniversaires,intimes, ou tout autre événement marquant. j'ai realiser cet siite pour l'agence astraOne  .`,
-          link: "https://eve-event.vercel.app/",
+          img: siraforest,
+          name: "siraforest",
+          description: `  SiraForest est une société spécialisée dans la gestion forestière durable, la reforestation, et la consultation environnementale.  outils utilisés : nextjs .`,
+          link: "https://siraforest.vercel.app/",
         },
         {
           id: 2,
           img: hpPrestige,
           name: "hp-prestige",
-          description: ` hp-prestige ( hygiènePure Prestige ) est un services de nettoyage de la plus haute qualité pour répondre à tous vos besoins que j'ai realiser, j'ai utiliser nextjs .`,
+          description: ` hp-prestige ( hygiènePure Prestige ) est un services de nettoyage de la plus haute qualité pour répondre à tous vos besoins que j'ai realiser,  outils utilisés : nextjs .`,
           link: "https://hp-prestige.vercel.app/",
         },
-        {
-          id: 3,
-          img: imgProjet1,
-          name: "Lux hôtel",
-          description: `Lux hôtel est un site d'hôtel que j'ai créé en utilisant les
-        technologies telles que : react js, taiwind css, le site contient
-        plusieurs pages : accueil, réservation, et contacter .`,
-          link: "https://ouattaraabraham.github.io/lux-hotel/",
-        },
+        // {
+        //   id: 3,
+        //   img: imgProjet1,
+        //   name: "Lux hôtel",
+        //   description: `Lux hôtel est un site d'hôtel que j'ai créé en utilisant les
+        // technologies telles que : react js, taiwind css, le site contient
+        // plusieurs pages : accueil, réservation, et contacter .`,
+        //   link: "https://ouattaraabraham.github.io/lux-hotel/",
+        // },
+
         // {
         //   id: 4,
         //   img: imgProjet2,

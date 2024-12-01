@@ -37,11 +37,11 @@ const Projets = () => {
             variants={Variants}
             whileInView="visible"
             viewport={{ once: true }}
-            className="sm:grid grid-cols-2 gap-12 mb-14 sm:mb-8 lg:mb-28  "
+            className=" group bg-[#0A3A71] rounded-lg lg:grid grid-cols-2 gap-12 mb-14 sm:mb-8 lg:mb-28  "
             key={item.id}
           >
-            <img className="hover:scale-110" src={item.img} alt={"projet" + item.id} />
-            <div className="text-center sm:text-start py-7">
+            <img className="lg:h-[400px]  object-cover group-hover:opacity-50 transition-opacity duration-300 rounded-tl-lg rounded-tr-lg  lg:rounded-tl-lg lg:rounded-tr-lg  lg:rounded-bl-lg " src={item.img} alt={"projet" + item.id} />
+            <div className="px-2 lg:px-0 lg:text-start py-7">
               <h2 className="font-bold pb-6 text-[#ccd6f6] text-lg lg:text-2xl">
                 {" "}
                 {item.name}{" "}
