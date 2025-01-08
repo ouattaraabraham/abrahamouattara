@@ -1,4 +1,4 @@
-import { imgTemoignage1, imgTemoignage2, imgProjet1, hpPrestige, siraforest, astraOne } from "../assets/images";
+import { imgTemoignage1, imgTemoignage2, hpPrestige, siraforest, astraOne } from "../assets/images";
 import { MdEmail } from "react-icons/md";
 import { FaTwitter, FaSquareGithub, FaReact  } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
@@ -79,7 +79,7 @@ export const DATAPROJETS=[
           img: astraOne,
           name: "astraOne",
           description: ` astraOne est une Agence Marketing Digital & Web qui est  solutions de communication, design, UX, et de développement d'applications web innovantes j'ai realiser le site de astraOne.  outils utilisés : nextjs .`,
-          link: "https://ouattaraabraham.github.io/agence-tech/",
+          link: "https://astraone.tech",
         },
         {
           id: 1,

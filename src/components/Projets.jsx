@@ -32,6 +32,7 @@ const Projets = () => {
 
       <div>
         {DATAPROJETS.map((item) => (
+          <a target="_blank" href={item.link} rel="noreferrer">
           <motion.div
             initial="hidden"
             variants={Variants}
@@ -47,13 +48,13 @@ const Projets = () => {
                 {item.name}{" "}
               </h2>
               <p className="pb-6 lg:text-lg">{item.description} </p>
-              <a target="_blank" href={item.link} rel="noreferrer">
                 <button className="text-white transition duration-300 ease-in-out bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] px-12 py-2 text-sm">
                   EXPLORER
                 </button>
-              </a>
             </div>
           </motion.div>
+
+          </a>
         ))}
       </div>
     </div>
