@@ -1,4 +1,4 @@
-import { imgTemoignage1, imgTemoignage2, hpPrestige, siraforest, astraOne } from "../assets/images";
+import { imgTemoignage1, imgTemoignage2, hpPrestige, siraforest, astraOne,medical,hodel } from "../assets/images";
 import { MdEmail } from "react-icons/md";
 import { FaTwitter, FaSquareGithub, FaReact  } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
@@ -74,13 +74,13 @@ export const DATAAPROPOS={
 }
 
 export const DATAPROJETS=[
-        {
-          id: 0,
-          img: astraOne,
-          name: "astraOne",
-          description: ` astraOne est une Agence Marketing Digital & Web qui est  solutions de communication, design, UX, et de développement d'applications web innovantes j'ai realiser le site de astraOne.  outils utilisés : nextjs .`,
-          link: "https://astraone.tech",
-        },
+      {
+        id: 0,
+        img: medical,
+        name: "Medical",
+        description: `J'ai développé un site médical servant de modèle pour les services de santé et les établissements médicaux. Outils utilisés : Next.js et Supabase.`,
+        link: "https://clinic-cyan.vercel.app/",
+      },
         {
           id: 1,
           img: siraforest,
@@ -95,15 +95,22 @@ export const DATAPROJETS=[
           description: ` hp-prestige ( hygiènePure Prestige ) est un services de nettoyage de la plus haute qualité pour répondre à tous vos besoins que j'ai realiser,  outils utilisés : nextjs .`,
           link: "https://hp-prestige.vercel.app/",
         },
-        // {
-        //   id: 3,
-        //   img: imgProjet1,
-        //   name: "Lux hôtel",
-        //   description: `Lux hôtel est un site d'hôtel que j'ai créé en utilisant les
-        // technologies telles que : react js, taiwind css, le site contient
-        // plusieurs pages : accueil, réservation, et contacter .`,
-        //   link: "https://ouattaraabraham.github.io/lux-hotel/",
-        // },
+            {
+          id: 3,
+          img: astraOne,
+          name: "astraOne",
+          description: ` astraOne est une Agence Marketing Digital & Web qui est  solutions de communication, design, UX, et de développement d'applications web innovantes j'ai realiser le site de astraOne.  outils utilisés : nextjs .`,
+          link: "https://astraone.tech",
+        },
+        {
+          id: 4,
+          img: hodel,
+          name: "Lux hôtel",
+          description: `Lux hôtel est un site d'hôtel que j'ai créé en utilisant les
+        technologies telles que : react js, taiwind css, le site contient
+        plusieurs pages : accueil, réservation, et contacter .`,
+          link: "https://ouattaraabraham.github.io/lux-hotel/",
+        },
 
         // {
         //   id: 4,
