@@ -10,5 +10,7 @@ export {default as hpPrestige } from "./hpPrestige.png"
 export {default as astraOne } from "./astraOne.png"
 export {default as medical } from "./medical.png"
 export {default as hodel } from "./hodel.png"
+export {default as paroisse } from "./paroise.png"
+
 
 
