@@ -8,7 +8,6 @@ import { TbBrandNextjs, TbBrandThreejs } from "react-icons/tb";
 import { LuFigma } from "react-icons/lu";
 import { SiTailwindcss } from "react-icons/si";
 
-
 export const DATASOCIAUX = [
     {
       name: "E-mail",
